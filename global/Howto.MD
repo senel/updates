@@ -29,7 +29,7 @@ These files are normally files that the user will edit/configure for themselves 
 This can be patches, file additions, sed replacements etc.
 
 *) Run create paths.sh
-A .deb installed requires that all folders are already present before it unpacks the new data
+A .deb install requires that all folders are already present before it unpacks the new data
 This file will create a if loops for all pre install folder creation, which you can then put in the preinst file.
 
 8) Edit the control file
