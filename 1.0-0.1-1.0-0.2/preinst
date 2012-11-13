@@ -9,6 +9,14 @@ if [ $1 == "install" ]; then
 	if [ -f /home/xbian/update.log ]; then
 		rm /home/xbian/update.log;
 	fi
+
+	if [ -f /boot/kernel3_2_27.img ]; then
+		rm /boot/kernel3_2_27.img
+	fi
+
+	if [ -f /boot/kernel3_6_1.img ]; then
+		rm /boot/kernel3_6_1.img
+	fi
 	
 	if [ ! -d /usr/local/lib/xbmc/addons/library.xbmc.addon ]; then
 		mkdir -p /usr/local/lib/xbmc/addons/library.xbmc.addon;
