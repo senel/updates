@@ -20,7 +20,7 @@ Delete file
 This file will create the data.tar.gz needed for the .deb
 
 6) Run create_md5.sh
-This will create a file called md5sums need for the .deb
+This will create a file called md5sums needed for the .deb
 
 7) Create prerm, preinst, postrm, postinst file (see previous examples)
 This files will be called to configure the .deb package. If not used, leave them with a "#!/bin/bash" header
