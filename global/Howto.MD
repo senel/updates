@@ -30,7 +30,7 @@ This can be patches, file additions, sed replacements etc.
 
 *) Run create paths.sh
 A .deb install requires that all folders are already present before it unpacks the new data
-This file will create a if loops for all pre install folder creation, which you can then put in the preinst file.
+This file will create if loops for all pre-install folder creation, which you can then put in the preinst file.
 
 8) Edit the control file
 
