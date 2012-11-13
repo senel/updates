@@ -1,11 +1,11 @@
-Package: xbian-update
+Package: xbian-update1.0-0.1-1.0-0.2
 Version: 1.0-0.2
 Section: update
 Priority: optional
 Architecture: armhf
-Depends:
+Depends: udisks, libnfs-dev, nfs-common, samba-common-bin, avahi-daemon, usbmount, git-core, ntfs-3g
 Suggests: 
-Conflicts:
+Conflicts: libraspberrypi-doc
 Replaces: 
 Installed-Size: 0
 Maintainer: CurlyMo <development@xbian.org>
