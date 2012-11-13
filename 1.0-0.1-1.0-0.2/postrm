@@ -1,0 +1,3 @@
+#!/bin/bash
+#dpkg -r: remove
+#echo "Post-rm: $1";

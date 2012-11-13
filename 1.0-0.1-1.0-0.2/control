@@ -1,0 +1,13 @@
+Package: xbian-update
+Version: 1.0-0.2
+Section: update
+Priority: optional
+Architecture: armhf
+Depends:
+Suggests: 
+Conflicts:
+Replaces: 
+Installed-Size: 0
+Maintainer: CurlyMo <development@xbian.org>
+Description: Updates XBian 1.0 Alpha 1 to Alpha 2
+ 
