@@ -5,9 +5,9 @@
 3) Git diff
 A stands for the SHA from previous release
 B stands for the SHA from next release
-```
+
 git diff --names-only A..B > update/status
-```
+
 4) Edit status file
 C - Custom
 File isn't installed by default but in other ways
