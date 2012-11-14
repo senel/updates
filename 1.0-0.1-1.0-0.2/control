@@ -1,7 +1,9 @@
+Origin: XBian
 Package: xbian-update1.0-0.1-1.0-0.2
 Version: 1.0-0.2
 Section: update
 Priority: optional
+Codename: wheezy
 Architecture: armhf
 Depends: udisks, libnfs-dev, nfs-common, samba-common-bin, avahi-daemon, usbmount, git-core, ntfs-3g
 Suggests: 
