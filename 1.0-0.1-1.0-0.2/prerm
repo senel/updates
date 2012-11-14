@@ -4,11 +4,10 @@
 #echo "Pre-rm: $1";
 
 if [ $1 == "remove" ]; then
-        echo "!-----------------------------------------------!"
-        echo "!  The xbian-update package cannot be removed.  !"
-        echo "!  It will break the updating functionality if  !"
-        echo "!      you would manage to do so manually.      !"
-        echo "!-----------------------------------------------!"
+        echo "!------------------------------------------------!"
+        echo "!   The xbian-update package cannot be removed,  !"
+        echo "! doing so would break the update functionality. !"
+        echo "!------------------------------------------------!"
         exit 1;
 fi
 
