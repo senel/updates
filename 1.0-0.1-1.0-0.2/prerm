@@ -3,6 +3,15 @@
 #dpkg -i: update
 #echo "Pre-rm: $1";
 
+if [ $1 == "remove" ]; then
+        echo "!-----------------------------------------------!"
+        echo "!  The xbian-update package cannot be removed.  !"
+        echo "!  It will break the updating functionality if  !"
+        echo "!      you would manage to do so manually.      !"
+        echo "!-----------------------------------------------!"
+        exit 1;
+fi
+
 if [ $1 == "upgrade" ]; then
 	if [ -f /home/xbian/update.log ]; then
 		rm /home/xbian/update.log;
