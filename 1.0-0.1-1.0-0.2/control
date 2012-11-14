@@ -6,10 +6,7 @@ Priority: optional
 Codename: wheezy
 Architecture: armhf
 Depends: udisks, libnfs-dev, nfs-common, samba-common-bin, avahi-daemon, usbmount, git-core, ntfs-3g
-Suggests: 
 Conflicts: libraspberrypi-doc
-Replaces: 
 Installed-Size: 0
 Maintainer: CurlyMo <development@xbian.org>
 Description: Updates XBian 1.0 Alpha 1 to Alpha 2.
- 
